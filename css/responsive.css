@@ -1,0 +1,424 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    .mobile-btn i{
+        color: white;
+        
+    }
+    .banner , .banner-content , .banner-form{
+        height: auto;
+    }
+    .banner{
+        padding: 20px 0px;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .banner-content h2{
+        width: auto;
+        font-size: 21px;
+        color: white;
+        font-weight: 500;
+    }
+    .banner-content p{
+        width: auto;
+    }
+    .banner-content .line{
+        margin-left: 39%;
+    }
+    .card{
+      width: auto;
+      margin-left: 23px;
+      margin-top: 20px;
+    }
+    .social-media .content p{
+      width: auto;
+    }
+    .social-media .content{
+      text-align: center;
+    }
+    .social-media .icn ul li{
+      margin-left: 5px;
+      margin-right: unset;
+    }
+    .social-media .icn ul{
+      padding-left: unset;
+    }
+    .social-media .icn{
+      margin-top: unset;
+    }
+    .social-media .icn ul li i.fab{
+      font-size: 40px;
+    }
+    .social-media .icn ul li i.fas{
+      font-size: 40px;
+    }
+    .tab-part{
+      height: 30vh;
+    }
+    .tab-part button{
+      padding: 35px 34px;
+      display: inline-block;
+    }
+    .one{
+      text-align: center;
+    }
+    .one h3{
+      margin-bottom: 38px;
+    }
+    .picture img{
+      margin-left: 0px;
+    }
+    .sub-list-section .revv{
+      flex-direction: column-reverse;
+    }
+    .sub-list-content{
+      text-align: center;
+    }
+    .sub-list-content h3{
+      margin-bottom: 17px;
+
+    }
+    .sub-list-content p{
+      margin-top: 10px;
+    }
+    .sub-list-content .line{
+      margin: auto;
+    }
+    .title-section {
+      margin-top: 40px;
+    }
+    .sub-list-title-down{
+      margin-top: 0px;
+    }
+    .title-section h5{
+      margin-left: 0px;
+    }
+    .title-section i.far{
+      margin-bottom: 12px;
+    }
+    .standard-content{
+      text-align: center;
+    }
+    
+    .standard-content p{
+      width: auto;
+    }
+    .standard-line{
+      margin: 31px auto;
+    }
+    .standard-img {
+      height: auto;
+    }
+    .standard-img img{
+      margin: auto;
+    }
+    .awesome-content h1{
+      font-size: 28px;
+    }
+    .awesome-line{
+      margin: 28px auto;
+    }
+    .awesome-icon-part p{
+      margin-bottom: 10px;
+    }
+    .Pricing-line{
+      margin: 28px auto;
+    }
+    .price .col-md-4{
+      margin-top: 10px;
+    }
+    .pricing{
+      padding-bottom: 0px;
+    }
+    .customer-line{
+      margin: 28px auto;
+    }
+    .customer-content h1{
+      font-size: 28px;
+    }
+    .customer-review .col-md-2{
+      width: 30%;
+
+    }
+    .customer-review .col-md-10{
+      width: 70%;
+
+    }
+    .customer-comment{
+      padding: 25px 25px;
+      width: auto;
+    }
+    .stylish-content{
+      margin-top: 30px;
+    }
+    .stylish-content h1{
+      font-size: 28px;
+    }
+    .stylish-line{
+      margin: 28px auto;
+    }
+    .contact-us-content h1{
+      font-size: 28px;
+      margin-top: 40px;
+    }
+    .contact-us-line{
+      margin: 28px auto;
+    }
+    .mesage{
+      margin-left: 0px;
+    }
+    .contact-button{
+      margin-top: 14px;
+      margin-bottom: 25px;
+    }
+    .footer-icon ul li{
+      margin-right: 0px;
+    }
+    .footer-icon ul li i{
+      padding-left: 21px;
+    }
+    .footer-icon ul{
+      padding-left: unset;
+    }
+  }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    .mobile-btn i{
+        color: white;
+       
+    }
+    .banner , .banner-content , .banner-form{
+        height: auto;
+    }
+    .banner{
+        padding: 20px 0px;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .banner-content h2{
+        width: auto;
+        font-size: 21px;
+        color: white;
+        font-weight: 500;
+    }
+    .banner-content p{
+        width: auto;
+    }
+    .banner-content .line{
+        margin-left: 39%;
+    }
+    .card{
+      width: auto;
+      margin-left: 23px;
+      margin-top: 20px;
+    }
+    .social-media .content p{
+      width: auto;
+    }
+    .social-media .content{
+      text-align: center;
+    }
+    .social-media .icn ul li{
+      margin-left: 5px;
+      margin-right: unset;
+    }
+    .social-media .icn ul{
+      padding-left: unset;
+    }
+    .social-media .icn{
+      margin-top: unset;
+    }
+    .social-media .icn ul li i.fab{
+      font-size: 40px;
+    }
+    .social-media .icn ul li i.fas{
+      font-size: 40px;
+    }
+    .tab-part{
+      height: 30vh;
+    }
+    .tab-part button{
+      padding: 35px 34px;
+      display: inline-block;
+    }
+    .one{
+      text-align: center;
+    }
+    .one h3{
+      margin-bottom: 38px;
+    }
+    .picture img{
+      margin-left: 0px;
+    }
+    .sub-list-section .revv{
+      flex-direction: column-reverse;
+    }
+    .sub-list-content{
+      text-align: center;
+    }
+    .sub-list-content h3{
+      margin-bottom: 17px;
+
+    }
+    .sub-list-content p{
+      margin-top: 10px;
+    }
+    .sub-list-content .line{
+      margin: auto;
+    }
+    .title-section {
+      margin-top: 40px;
+    }
+    .sub-list-title-down{
+      margin-top: 0px;
+    }
+    .title-section h5{
+      margin-left: 0px;
+    }
+    .title-section i.far{
+      margin-bottom: 12px;
+    }
+    .standard-content{
+      text-align: center;
+    }
+    
+    .standard-content p{
+      width: auto;
+    }
+    .standard-line{
+      margin: 31px auto;
+    }
+    .standard-img {
+      height: auto;
+    }
+    .standard-img img{
+      margin: auto;
+    }
+    .awesome-content h1{
+      font-size: 28px;
+    }
+    .awesome-line{
+      margin: 28px auto;
+    }
+    .awesome-icon-part p{
+      margin-bottom: 10px;
+    }
+    .Pricing-line{
+      margin: 28px auto;
+    }
+    .price .col-md-4{
+      margin-top: 10px;
+    }
+    .pricing{
+      padding-bottom: 0px;
+    }
+    .customer-line{
+      margin: 28px auto;
+    }
+    .customer-content h1{
+      font-size: 28px;
+    }
+    .customer-review .col-md-2{
+      width: 30%;
+
+    }
+    .customer-review .col-md-10{
+      width: 70%;
+
+    }
+    .customer-comment{
+      padding: 25px 25px;
+      width: auto;
+    }
+    .stylish-content{
+      margin-top: 30px;
+    }
+    .stylish-content h1{
+      font-size: 28px;
+    }
+    .stylish-line{
+      margin: 28px auto;
+    }
+    .contact-us-content h1{
+      font-size: 28px;
+      margin-top: 40px;
+    }
+    .contact-us-line{
+      margin: 28px auto;
+    }
+    .mesage{
+      margin-left: 0px;
+    }
+    .contact-button{
+      margin-top: 14px;
+      margin-bottom: 25px;
+    }
+    .footer-icon ul li{
+      margin-right: 0px;
+    }
+    .footer-icon ul li i{
+      padding-left: 21px;
+    }
+    .footer-icon ul{
+      padding-left: unset;
+    }
+  }
