@@ -10,9 +10,7 @@ font-family: 'Raleway', sans-serif;*/
    /*Header csss*/
 /*.......................*/
 
-.container{
-	/*width: 1140px;*/
-}
+
 header{
 	background: black;
 }
@@ -259,9 +257,7 @@ header{
 	 padding-top: 90px;
 	 padding-bottom: 60px;
 }
-.sub-list-content{
-	width: ;
-}
+
 .sub-list-content .line{
 	 height: 2px;
     width: 70px;
